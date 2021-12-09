@@ -37,8 +37,8 @@ def part2(input):
     print(depth*pos)
 
 
-#part1('Advent of Code 2021/Day2/testinput.txt')
-part1('Advent of Code 2021/Day2/input.txt')
+#part1('Day2/input/testinput.txt')
+part1('Day2/input/input.txt')
 
-#part2('Advent of Code 2021/Day2/testinput.txt')
-part2('Advent of Code 2021/Day2/input.txt')
+#part2('Day2/input/testinput.txt')
+part2('Day2/input/input.txt')
