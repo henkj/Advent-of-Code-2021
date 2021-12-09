@@ -90,8 +90,5 @@ def part2(input):
         print(product)
         
 
-#part1('Advent of Code 2021/Day9/testinput.txt')
-#part1('Advent of Code 2021/Day9/input.txt')
-
-#part2('Advent of Code 2021/Day9/testinput.txt')
-part2('Advent of Code 2021/Day9/input.txt')
+part1('Day9/input/input.txt')
+part2('Day9/input/input.txt')

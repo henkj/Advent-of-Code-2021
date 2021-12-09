@@ -170,12 +170,5 @@ def part2(fileInput):
         print(sum)
         
     
-        
-        
-        
-
-#part1('Advent of Code 2021/Day8/testinput.txt')
-#part1('Advent of Code 2021/Day8/input.txt')
-
-#part2('Advent of Code 2021/Day8/testinput.txt')
-part2('Advent of Code 2021/Day8/input.txt')
+part1('Day8/input/input.txt')
+part2('Day8/input/input.txt')

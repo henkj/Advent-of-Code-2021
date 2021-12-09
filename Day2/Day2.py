@@ -14,7 +14,6 @@ def part1(input):
             depth -= change
         else:
             depth += change
-        #print('Position: ' + str(pos) + "  Depth: " + str(depth) )
     print(depth*pos)
 
 def part2(input):
@@ -33,12 +32,8 @@ def part2(input):
             aim -= change
         else:
             aim += change
-        #print('Position: ' + str(pos) + "  Depth: " + str(depth) + "  Aim: " + str(aim))
     print(depth*pos)
 
 
-#part1('Advent of Code 2021/Day2/testinput.txt')
-part1('Advent of Code 2021/Day2/input.txt')
-
-#part2('Advent of Code 2021/Day2/testinput.txt')
-part2('Advent of Code 2021/Day2/input.txt')
+part1('Day2/input/input.txt')
+part2('Day2/input/input.txt')

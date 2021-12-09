@@ -17,14 +17,12 @@ def part1(input):
             binaryStr += "1"
         else:
             binaryStr += "0"
-    print(binaryStr)
     reverseBinaryStr = ""
     for k in binaryStr:
         if k == "0":
             reverseBinaryStr += "1"
         else:
             reverseBinaryStr += "0"
-    print(reverseBinaryStr)
     print(int(binaryStr, 2) * int(reverseBinaryStr, 2))
     
 
@@ -65,14 +63,12 @@ def part2(input):
     oxyGenRating = lines
     while index < length:
         oxyGenRating = reduceList(oxyGenRating, index, True)
-        #print(oxyGenRating)
         index += 1
 
     index = 0
     coScrubRating = lines
     while index < length:
         coScrubRating = reduceList(coScrubRating, index, False)
-        #print(coScrubRating)
         index += 1
                 
     print(int(oxyGenRating[0],2)*int(coScrubRating[0],2))
@@ -80,8 +76,5 @@ def part2(input):
     
 
 
-#part1('Advent of Code 2021/Day3/testinput.txt')
-#part1('Advent of Code 2021/Day3/input.txt')
-
-#part2('Advent of Code 2021/Day3/testinput.txt')
-part2('Advent of Code 2021/Day3/input.txt')
+part1('Day3/input/input.txt')
+part2('Day3/input/input.txt')

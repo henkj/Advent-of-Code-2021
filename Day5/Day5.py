@@ -55,8 +55,5 @@ def part2(input):
 
 
 
-#part1('Advent of Code 2021/Day5/testinput.txt')
-part1('Advent of Code 2021/Day5/input.txt')
-
-#part2('Advent of Code 2021/Day5/testinput.txt')
-part2('Advent of Code 2021/Day5/input.txt')
+part1('Day5/input/input.txt')
+part2('Day5/input/input.txt')
