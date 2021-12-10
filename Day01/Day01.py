@@ -1,7 +1,7 @@
 
 
 def part1():
-    with open('Day1/input/input.txt') as f:
+    with open('Day01/input/input.txt') as f:
       lines = f.readlines()
     prevLine = ""
     count = 0
@@ -12,7 +12,7 @@ def part1():
     print(count)
 
 def part2():
-    with open('Day1/input/input.txt') as f:
+    with open('Day01/input/input.txt') as f:
       lines = f.readlines()
     prevScore = ""
     count = 0

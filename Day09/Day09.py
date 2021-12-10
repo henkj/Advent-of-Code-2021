@@ -90,5 +90,5 @@ def part2(input):
         print(product)
         
 
-part1('Day9/input/input.txt')
-part2('Day9/input/input.txt')
+part1('Day09/input/input.txt')
+part2('Day09/input/input.txt')

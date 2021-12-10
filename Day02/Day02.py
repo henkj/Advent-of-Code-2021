@@ -35,5 +35,5 @@ def part2(input):
     print(depth*pos)
 
 
-part1('Day2/input/input.txt')
-part2('Day2/input/input.txt')
+part1('Day02/input/input.txt')
+part2('Day02/input/input.txt')

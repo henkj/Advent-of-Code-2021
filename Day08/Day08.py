@@ -170,5 +170,5 @@ def part2(fileInput):
         print(sum)
         
     
-part1('Day8/input/input.txt')
-part2('Day8/input/input.txt')
+part1('Day08/input/input.txt')
+part2('Day08/input/input.txt')

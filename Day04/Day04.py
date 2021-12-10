@@ -107,5 +107,5 @@ def part2(input):
         
     
 
-part1('Day4/input/input.txt')
-part2('Day4/input/input.txt')
+part1('Day04/input/input.txt')
+part2('Day04/input/input.txt')
