@@ -1,3 +1,5 @@
+import sys
+
 def applyRules(input, rules):
     result = ""
     for i in range(len(input)-1):
@@ -13,7 +15,7 @@ def applyRules(input, rules):
     
 
 def findDiffHighLow(amount):
-    lowestAmount = 99999999999999999
+    lowestAmount = sys.maxsize
     highestAmount = 0
     for char, count in amount.items():
         if count > highestAmount:
